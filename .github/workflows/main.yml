@@ -1,0 +1,13 @@
+name: My First Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3003619@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
